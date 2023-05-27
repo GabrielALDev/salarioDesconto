@@ -22,6 +22,7 @@ def opcoes () :
 			salarioDesconto=salario-desconto
 			print(f'Seu salário é R${salarioDesconto:.2f}')
 			print("O calculo é feito pela tabela do INSS - 2023")
+			reiniciar = input("Você deseja reiniciar S/N? ").upper()
 			if reiniciar == "S" :
 				os.system('cls') or None
 				opcoes()
@@ -30,6 +31,7 @@ def opcoes () :
 			salarioDesconto=salario-desconto
 			print(f'Seu salário é R${salarioDesconto:.2f}')
 			print("O calculo é feito pela tabela do INSS - 2023")
+			reiniciar = input("Você deseja reiniciar S/N? ").upper()
 			if reiniciar == "S" :
 				os.system('cls') or None
 				opcoes()
@@ -38,6 +40,7 @@ def opcoes () :
 			salarioDesconto=salario-desconto
 			print(f'Seu salário é R${salarioDesconto:.2f}')
 			print("O calculo é feito pela tabela do INSS - 2023")
+			reiniciar = input("Você deseja reiniciar S/N? ").upper()
 			if reiniciar == "S" :
 				os.system('cls') or None
 				opcoes()
