@@ -1,0 +1,1 @@
+Esse é um programa em python para desconto de salário de acordo com as normas vigentes.
